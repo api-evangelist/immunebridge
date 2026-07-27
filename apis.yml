@@ -1,9 +1,27 @@
 aid: immunebridge
 name: ImmuneBridge
-description: 'ImmuneBridge is a company surfaced as a portfolio company of insight-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: biotech-therapeutics. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'ImmuneBridge is a San Francisco biotech company building a first-in-class integrated
+  screening and manufacturing platform for allogeneic cell therapies. The company screens and expands
+  stem cells from multiple sources (umbilical cord blood, mobilized blood, bone marrow), uses high-throughput
+  automated assays with machine-learning models to predict donor and process performance early, and scales
+  production with IBR403, a small molecule enabling up to 100,000-fold expansion of hematopoietic stem cells.
+  The stated goal is to manufacture tens of thousands of affordable, high-quality immune cell doses (HSCs,
+  NK cells, T cells, and more) from a single cord blood unit. ImmuneBridge is backed by Insight Partners,
+  NFX Bio, M Ventures, and other institutional investors. This profile was enriched by the API Evangelist
+  pipeline; the company publishes no public API or developer surface.'
 url: https://raw.githubusercontent.com/api-evangelist/immunebridge/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/68d83bf74448ab977940e693/68db372f2c222ae10049d240_IB%2BHorizontal%2BLogo%2BBlack.webp
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Biotech Therapeutics
+- Biotech
+- Cell Therapy
+- Therapeutics
+- Immunology
+- Bioprocessing
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/immunebridge-domain-security.yml
 - type: Website
   url: https://www.immunebridge.com/
+- type: Blog
+  url: https://www.immunebridge.com/blog
+- type: PrivacyPolicy
+  url: https://www.immunebridge.com/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
